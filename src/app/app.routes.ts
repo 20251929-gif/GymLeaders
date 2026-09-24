@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { KantogymComponent } from './components/kantogym/kantogym';
 import { JohtogymComponent } from './components/johtogym/johtogym';
 import { Home } from './home/home';
-import { TrainerDisplay } from './components/hoenngym/trainer-display/trainer-display';
+import { TrainerDisplay } from './components/trainer-display/trainer-display';
 
 
 export const routes: Routes = [

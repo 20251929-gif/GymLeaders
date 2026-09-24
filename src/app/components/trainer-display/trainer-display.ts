@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { TrainerService } from '../../../trainerservice'
+import { TrainerService } from '../../trainerservice'
 @Component({
 selector: 'app-trainer-display',
 standalone: true,
