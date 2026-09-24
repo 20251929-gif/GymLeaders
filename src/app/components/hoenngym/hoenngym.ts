@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { LeaderInfo, GymLeader } from '../leader-info/leader-info';
+
 
 @Component({
+  selector: 'app-johtogym',
+  standalone: true,
   imports: [],
-  selector: 'app-hoenngym',
-  styleUrl: './hoenngym.css',
   templateUrl: './hoenngym.html',
+  styleUrl: './hoenngym.css'
 })
 export class Hoenngym {}
