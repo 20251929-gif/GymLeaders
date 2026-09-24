@@ -17,6 +17,7 @@ template: `
       </p>
       
       <ul>
+        <h4>Pokemon Team</h4>
         @for (pokemon of trainer.team; track $index) {
           <li>
             <strong>{{ pokemon }}</strong>
@@ -26,6 +27,20 @@ template: `
     </div>
   }
 </div>
+<style>
+.container {
+  background: #50C878;
+  padding: 25px;
+  border-radius: 15px;
+}
+.trainer-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+</style>
 `
 })
 export class TrainerDisplay {
