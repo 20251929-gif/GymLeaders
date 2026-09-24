@@ -1,0 +1,15 @@
+.card {
+  background-image: url(https://pwo-wiki.info/images/c/c2/Pokemon_Center_Exterior.png);
+  padding: 25px;
+  
+  background-size: contain;     
+  
+  background-position: center;  
+  background-repeat: no-repeat; 
+  
+  min-height: 200px; 
+}
+
+h1 {
+  text-align: center;
+}

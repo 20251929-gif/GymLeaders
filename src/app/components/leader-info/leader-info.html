@@ -1,0 +1,26 @@
+<div class="leader-info">
+  <h2>{{ leader.name }}</h2>
+
+  <p>
+    <strong>Badge:</strong> {{ leader.badge }}
+  </p>
+
+  <p>
+    <strong>Location:</strong> {{ leader.location }}
+  </p>
+
+  <h3>Pokemon Team</h3>
+  <ul>
+    @for (pokemon of leader.pokemon; track pokemon) {
+      <li>{{ pokemon }}</li>
+    }
+  </ul>
+
+  <button (click)="toggleMotto()">
+    {{ visible ? 'Hide' : 'Show' }} Gym Leader Motto
+  </button>
+
+   @if (visible) {
+    <p class="gym-motto">{{ leader.motto }}</p>
+  }
+</div>

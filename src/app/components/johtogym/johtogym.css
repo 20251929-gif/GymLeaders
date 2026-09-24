@@ -1,0 +1,9 @@
+.region {
+  background: #e8f4ff;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.region h1 {
+  text-align: center;
+}

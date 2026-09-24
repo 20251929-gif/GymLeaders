@@ -1,0 +1,13 @@
+<section class="region">
+
+  <h1>Johto Region</h1>
+
+  <p>
+    The Johto Region has eight Gym Leaders.
+  </p>
+
+  @for (leader of gymLeaders; track leader.name) {
+    <app-gymcard [leader]="leader"></app-gymcard>
+  }
+
+</section>

@@ -1,0 +1,15 @@
+.leader-info {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.leader-info h2 {
+  margin-top: 0;
+}
+
+.leader-info ul {
+  padding-left: 20px;
+}
